@@ -15,6 +15,7 @@ a {
 body {
     background-color: #f2f1ef;
     font-family: 'Noto Sans KR', sans-serif;
+    overflow-y: scroll;
 }
 
 .wrapper {
@@ -85,6 +86,66 @@ body {
     bottom: 5px;
 }
 
+/* code work */
+.contents .category {
+    padding: 10px;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.contents .category .item {
+    margin-bottom: 30px;
+}
+
+.contents .category .item-last {
+    margin-bottom: 10px;
+}
+
+.contents .category .work-img img {
+    width: 140px;
+    float: left;
+    margin: 5px 20px 0 0;
+}
+
+.contents .top.work {
+    color: white;
+    background-color: black;
+    display: inline-block;
+    padding: 0 3px;
+}
+
+.contents .top.work:hover {
+    background-color: darkcyan;
+}
+
+.contents .short {
+    font-size: 11pt;
+    margin: 5px 0;
+}
+
+.contents .short a {
+    text-decoration: underline;
+}
+
+.contents .long {
+    width: auto;
+    background-color: #e0e0e0;
+    word-break: break-all;
+    font-size: 10pt;
+    padding: 5px;
+    overflow: hidden;
+}
+
+.contents .long .article {
+    list-style-type: disc;
+    padding-left: 20px;
+    line-height: 1.5em;
+}
+
+.contents .long .article a:hover {
+    text-decoration: underline;   
+}
+    
 /* code profile */
 .contents {
     position: relative;
@@ -125,6 +186,10 @@ body {
     padding: 0 30px;
 }
 
+.contents .top {
+    margin-top: 5px;
+}
+
 .contents .top,.sub {
     display: inline-block;
 }
@@ -138,8 +203,12 @@ body {
     font-size: 0.75em;
 }
 
+.contents .point.exp {
+    margin: 0 10px 10px;
+}
+
 .contents .keyword {
-    padding: 0;
+    padding: 0 10px;
     margin-bottom: 20px;
 }
 
