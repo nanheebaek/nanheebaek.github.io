@@ -168,7 +168,7 @@ body {
 
 .contents h2 {
     font-size: 20pt;
-    margin-top: 20px;
+    margin: 20px 0 10px;
 }
 
 .contents h2 span {
@@ -190,8 +190,8 @@ body {
     color: darkcyan;
 }
 
-.contents ul {
-    padding: 0 30px;
+.contents .detail {
+    margin: 0 30px 30px;
 }
 
 .contents .top {
@@ -212,12 +212,12 @@ body {
 }
 
 .contents .point.exp {
-    margin: 0 10px 10px;
+    margin: 5px 10px 5px;
 }
 
 .contents .keyword {
     padding: 0 10px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .contents .keyword li {
