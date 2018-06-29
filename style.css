@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/earlyaccess/notosanskr.css);
 
 /* reset */
-body, h1, h2, p, a, li, ul {
+body, h1, h2, h3, p, a, li, ul {
     margin: 0;
     padding: 0;
 }
@@ -87,6 +87,12 @@ body {
 }
 
 /* code work */
+.contents .guide {
+    font-size: 10pt;
+    color: darkgray;
+    margin-bottom: 30px;
+}
+
 .contents .category {
     padding: 10px;
     list-style-type: none;
@@ -102,9 +108,11 @@ body {
 }
 
 .contents .category .work-img img {
-    width: 140px;
+    height: 140px;
+    width: 110px;
     float: left;
     margin: 5px 20px 0 0;
+    overflow: hidden;
 }
 
 .contents .top.work {
@@ -171,7 +179,7 @@ body {
 
 .contents h3 {
     font-size: 14pt;
-    margin-top: 30px;
+    margin: 10px 0 10px;
     padding-left: 5px;
     border-left: 3px solid black;
     line-height: 0.9em;
