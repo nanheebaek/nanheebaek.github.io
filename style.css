@@ -39,6 +39,10 @@ body {
     letter-spacing: 0.1em;
 }
 
+.header .at {
+    background-color: darkcyan;
+}
+
 .header a:hover {
     background-color: darkcyan;
 }
@@ -180,14 +184,9 @@ body {
 .contents h3 {
     font-size: 14pt;
     margin: 10px 0 10px;
-    padding-left: 5px;
-    border-left: 3px solid black;
-    line-height: 0.9em;
-}
-
-.contents h3:hover {
-    border-left: 3px solid darkcyan;
-    color: darkcyan;
+    padding: 0 5px;
+    background-color: #e0e0e0;
+    display: inline-block;
 }
 
 .contents .detail {
